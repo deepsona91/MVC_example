@@ -1,0 +1,14 @@
+﻿@model mvcdotnet.Models.somethingModel
+
+@{
+    ViewBag.Title = "Showmesomething";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lets show the data</h2>
+<table>
+    <tr><td>Name</td><td>City</td></tr>
+    <tr><td>@Model.name</td><td>@Model.city</td></tr>
+   
+</table>
+
